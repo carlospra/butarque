@@ -1,0 +1,24 @@
+{
+ "id": "bosque-miyawaki",
+ "titulo": "Bosque Miyawaki - Bosque Metrapolitano",
+ "titulo_corto": "Bosque Miyawaki",
+ "capa_id": "espacios-naturales",
+ "color": "#558B2F",
+ "lat": 40.3394252,
+ "lon": -3.6716714,
+ "anio": null,
+ "fecha_texto": null,
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "espacios-naturales",
+  "nombre": "Espacios Naturales",
+  "color": "#558B2F"
+ },
+ "recursos": [],
+ "rutas": [],
+ "recuerdos": []
+}

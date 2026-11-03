@@ -1,0 +1,86 @@
+{
+ "id": "ruta-vecinal",
+ "nombre": "Un barrio que se organiza",
+ "descripcion": "Reivindicaciones vecinales: pasarelas, cultura, escuelas y salud.",
+ "color": "#9C27B0",
+ "paradas": [
+  {
+   "id": "pasarela-vias-del-tren",
+   "titulo": "Primera pasarela para cruzar las vías del tren",
+   "titulo_corto": "La primera pasarela",
+   "lat": 40.353933,
+   "lon": -3.68362,
+   "anio": null,
+   "fecha_texto": null,
+   "orden": 0
+  },
+  {
+   "id": "asociacion-vecinos-los-rosales",
+   "titulo": "Nace la Asociación de Vecinos Los Rosales",
+   "titulo_corto": "Nace la AV Los Rosales",
+   "lat": 40.3523773,
+   "lon": -3.6801661,
+   "anio": 1986,
+   "fecha_texto": "1986",
+   "orden": 1,
+   "tramo_m": 340
+  },
+  {
+   "id": "centro-cultural-los-rosales",
+   "titulo": "Inauguración Centro Cultural Los Rosales",
+   "titulo_corto": "Centro Cultural Los Rosales",
+   "lat": 40.3512908,
+   "lon": -3.6763772,
+   "anio": 2004,
+   "fecha_texto": "1998-2004",
+   "orden": 2,
+   "tramo_m": 343
+  },
+  {
+   "id": "parque-ceip-el-greco",
+   "titulo": "El parque junto al CEIP El Greco, un nuevo espacio de encuentro para el barrio",
+   "titulo_corto": "Parque junto al CEIP El Greco",
+   "lat": 40.3466167,
+   "lon": -3.6748684,
+   "anio": 2025,
+   "fecha_texto": "2025",
+   "orden": 3,
+   "tramo_m": 535
+  },
+  {
+   "id": "la-gran-valla",
+   "titulo": "Reivindicaciones en educación: la colocación de “la gran valla”",
+   "titulo_corto": "La «gran valla» educativa",
+   "lat": 40.343116,
+   "lon": -3.6739094,
+   "anio": 2014,
+   "fecha_texto": "2014",
+   "orden": 4,
+   "tramo_m": 398
+  },
+  {
+   "id": "el-nuevo-butarque",
+   "titulo": "El nuevo Butarque",
+   "titulo_corto": null,
+   "lat": 40.3428814,
+   "lon": -3.6744076,
+   "anio": 1999,
+   "fecha_texto": "1999-2007",
+   "orden": 5,
+   "tramo_m": 50
+  },
+  {
+   "id": "centro-de-salud",
+   "titulo": "El centro de salud: una de las reivindicaciones más antiguas del barrio",
+   "titulo_corto": "El centro de salud",
+   "lat": 40.3408704,
+   "lon": -3.677375,
+   "anio": 2022,
+   "fecha_texto": "2022",
+   "orden": 6,
+   "tramo_m": 337
+  }
+ ],
+ "distancia_m": 2003,
+ "minutos": 27
+}

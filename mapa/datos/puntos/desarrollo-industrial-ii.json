@@ -1,0 +1,41 @@
+{
+ "id": "desarrollo-industrial-ii",
+ "titulo": "Desarrollo Industrial II",
+ "titulo_corto": null,
+ "capa_id": "industrias-y-tejido-productivo",
+ "color": "#E65100",
+ "lat": 40.3559433,
+ "lon": -3.6810261,
+ "anio": 1960,
+ "fecha_texto": "1960",
+ "miniatura": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4f-94xu36GQyGZiEEO5ur_o4Y9_mytFHlIZGtt_Jp40LOAbzLZTA_HLO7OqmgqeshOfmhg-DTJbUsWMfq_HbU3ma1_mVgEQJVxnDlswDY_r6DRI3xo6eUSnM_F7uYEIZiU2nyvCQObF2XdG0scSZ4Pr-CTEOaiFRJBkS2mcX8q-3AJRJQjX45uKFmzWAWie8E8ymJsSCpN5_mUFEJYrBtrjeHOKos-BadERtuaNowaholHL0ZXWVMu6Hs?fife=s16383",
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "Se instalan las industrias punteras de Standard Electric (teléfonos, 1962), Marconi (radios), Barreiros-Renault (camiones), Manufacturas Metálicas Madrileñas, Agromán, La Casera, Cafés La Estrella, Campsa y Cervezas El Águila. Todas ellas recurren en las memorias de los y las vecinas de Butarque como centros de trabajo que trajeron la prosperidad al barrio. (1960)",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "industrias-y-tejido-productivo",
+  "nombre": "Industrias y tejido productivo",
+  "color": "#E65100"
+ },
+ "recursos": [
+  {
+   "id": 12,
+   "tipo": "imagen",
+   "titulo": "Fotografía de la línea del tiempo",
+   "url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4f-94xu36GQyGZiEEO5ur_o4Y9_mytFHlIZGtt_Jp40LOAbzLZTA_HLO7OqmgqeshOfmhg-DTJbUsWMfq_HbU3ma1_mVgEQJVxnDlswDY_r6DRI3xo6eUSnM_F7uYEIZiU2nyvCQObF2XdG0scSZ4Pr-CTEOaiFRJBkS2mcX8q-3AJRJQjX45uKFmzWAWie8E8ymJsSCpN5_mUFEJYrBtrjeHOKos-BadERtuaNowaholHL0ZXWVMu6Hs?fife=s16383",
+   "autoria": "Pendiente de confirmar",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": "Fotografía: Desarrollo Industrial II"
+  }
+ ],
+ "rutas": [
+  {
+   "id": "ruta-industrial",
+   "nombre": "Cuando las fábricas eran vecinas",
+   "color": "#E65100",
+   "orden": 1
+  }
+ ],
+ "recuerdos": []
+}

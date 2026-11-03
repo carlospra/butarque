@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mapa vivo de Butarque</title>
+<meta name="description" content="La historia del barrio de Butarque (Villaverde, Madrid) en un mapa interactivo: yacimientos, industria, movimientos vecinales y espacios naturales.">
+<meta name="theme-color" content="#2b2620">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="iconos/icono-192.png">
+<link rel="apple-touch-icon" href="iconos/icono-192.png">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="barra__fila">
+      <h1 class="barra__titulo">Mapa vivo <span>de Butarque</span></h1>
+      <button class="boton-icono" id="btn-lista" aria-label="Ver los puntos en forma de lista" aria-pressed="false">☰</button>
+    </div>
+    <nav class="capas" id="capas" aria-label="Capas del mapa"></nav>
+  </header>
+
+  <main>
+    <div id="mapa" role="application" aria-label="Mapa del barrio de Butarque con los puntos de interés"></div>
+
+    <section id="lista" class="lista" hidden aria-label="Puntos de interés en lista"></section>
+
+    <div class="aviso-sin-red" id="sin-red" hidden>Sin conexión · se muestran los datos guardados</div>
+    <div class="aviso-simulacion" id="aviso-simulacion" hidden>Modo prueba: toca el mapa para simular tu posición</div>
+
+    <section class="dock" id="dock">
+      <div class="tiempo">
+        <div class="tiempo__cabecera">
+          <label for="deslizador" class="tiempo__titulo">Línea del tiempo</label>
+          <output class="tiempo__valor" id="tiempo-valor" for="deslizador">Todo</output>
+          <button class="boton-icono boton-icono--pequeno" id="btn-reproducir" aria-label="Reproducir la línea del tiempo">▶</button>
+        </div>
+        <input type="range" id="deslizador" min="0" max="1" step="1" value="1" aria-describedby="tiempo-ayuda">
+        <p class="tiempo__ayuda" id="tiempo-ayuda">Mueve para ver cómo se fue formando el barrio</p>
+      </div>
+      <div class="acciones">
+        <button class="accion" id="btn-rutas"><span aria-hidden="true">🥾</span> Rutas</button>
+        <button class="accion" id="btn-cerca"><span aria-hidden="true">📍</span> Cerca de mí</button>
+      </div>
+    </section>
+
+    <section class="hoja" id="hoja" aria-live="polite" hidden>
+      <button class="hoja__asa" id="hoja-asa" aria-label="Cerrar"></button>
+      <div class="hoja__contenido" id="hoja-contenido"></div>
+    </section>
+
+    <div class="aviso" id="aviso" role="status" aria-live="polite" hidden></div>
+
+    <dialog class="dialogo" id="dialogo-qr">
+      <form method="dialog">
+        <h2 id="qr-titulo">Código QR</h2>
+        <img id="qr-imagen" alt="" width="240" height="240">
+        <p class="dialogo__nota">Al escanearlo se abre la ficha de este punto. Pensado para placas en la calle.</p>
+        <button class="boton">Cerrar</button>
+      </form>
+    </dialog>
+  </main>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="vendor/qrcode/qrcode.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

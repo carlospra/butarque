@@ -1,0 +1,42 @@
+[
+ {
+  "id": "yacimientos-arqueologicos-y-vestigios-historicos",
+  "nombre": "Yacimientos arqueológicos y vestigios históricos",
+  "nombre_corto": "Yacimientos",
+  "color": "#FFD600",
+  "orden": 0,
+  "puntos": 5
+ },
+ {
+  "id": "industrias-y-tejido-productivo",
+  "nombre": "Industrias y tejido productivo",
+  "nombre_corto": "Industria",
+  "color": "#E65100",
+  "orden": 1,
+  "puntos": 4
+ },
+ {
+  "id": "movimientos-vecinales-y-vida-en-el-barrio",
+  "nombre": "Movimientos vecinales y vida en el barrio",
+  "nombre_corto": "Vida vecinal",
+  "color": "#9C27B0",
+  "orden": 2,
+  "puntos": 3
+ },
+ {
+  "id": "equipamientos-e-infraestructuras",
+  "nombre": "Equipamientos e infraestructuras",
+  "nombre_corto": "Equipamientos",
+  "color": "#01579B",
+  "orden": 3,
+  "puntos": 6
+ },
+ {
+  "id": "espacios-naturales",
+  "nombre": "Espacios Naturales",
+  "nombre_corto": "Naturaleza",
+  "color": "#558B2F",
+  "orden": 4,
+  "puntos": 3
+ }
+]

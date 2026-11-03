@@ -1,0 +1,31 @@
+{
+ "id": "parque-ceip-el-greco",
+ "titulo": "El parque junto al CEIP El Greco, un nuevo espacio de encuentro para el barrio",
+ "titulo_corto": "Parque junto al CEIP El Greco",
+ "capa_id": "movimientos-vecinales-y-vida-en-el-barrio",
+ "color": "#9C27B0",
+ "lat": 40.3466167,
+ "lon": -3.6748684,
+ "anio": 2025,
+ "fecha_texto": "2025",
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "Una de las necesidades que más se han venido comentando en el barrio es la falta de una plaza en el mismo, que constituyese un punto de encuentro “neurálgico” de la población y que sirviese como punto de referencia para la celebración de diferentes eventos comunitarios. En el año 2025 se inauguró un parque con elementos de plaza en un gran terreno junto al CEIP El Greco, que anteriormente era un descampado, dotando el barrio de una nueva infraestructura para favorecer el encuentro de la vecindad, el juego y el descanso",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "movimientos-vecinales-y-vida-en-el-barrio",
+  "nombre": "Movimientos vecinales y vida en el barrio",
+  "color": "#9C27B0"
+ },
+ "recursos": [],
+ "rutas": [
+  {
+   "id": "ruta-vecinal",
+   "nombre": "Un barrio que se organiza",
+   "color": "#9C27B0",
+   "orden": 3
+  }
+ ],
+ "recuerdos": []
+}

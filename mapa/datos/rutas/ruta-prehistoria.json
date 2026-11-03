@@ -1,0 +1,53 @@
+{
+ "id": "ruta-prehistoria",
+ "nombre": "Antes del barrio: de los elefantes al Canal",
+ "descripcion": "Yacimientos y vestigios: del Pleistoceno a la Ilustración.",
+ "color": "#B8860B",
+ "paradas": [
+  {
+   "id": "mamut-transfesa",
+   "titulo": "Descubrimiento \"Mamut\" en TRANSFESA",
+   "titulo_corto": "El «mamut» de TRANSFESA",
+   "lat": 40.3547034,
+   "lon": -3.6832453,
+   "anio": 1958,
+   "fecha_texto": "1958",
+   "orden": 0
+  },
+  {
+   "id": "los-habitantes-prehistoricos",
+   "titulo": "Los habitantes prehistóricos",
+   "titulo_corto": "Habitantes prehistóricos",
+   "lat": 40.3553753,
+   "lon": -3.6774338,
+   "anio": -450000,
+   "fecha_texto": "hace ~450.000 años",
+   "orden": 1,
+   "tramo_m": 498
+  },
+  {
+   "id": "canal-cuarta-esclusa",
+   "titulo": "El Real Canal del Manzanares (La Casa de la Cuarta Esclusa)",
+   "titulo_corto": "Real Canal del Manzanares",
+   "lat": 40.3522096,
+   "lon": -3.6717699,
+   "anio": 1771,
+   "fecha_texto": "1771",
+   "orden": 2,
+   "tramo_m": 595
+  },
+  {
+   "id": "yacimiento-de-las-camas",
+   "titulo": "Yacimiento de las Camas",
+   "titulo_corto": "Yacimiento de Las Camas",
+   "lat": 40.3395527,
+   "lon": -3.6758642,
+   "anio": -1000,
+   "fecha_texto": "~1000 a. C.",
+   "orden": 3,
+   "tramo_m": 1450
+  }
+ ],
+ "distancia_m": 2543,
+ "minutos": 34
+}

@@ -1,0 +1,41 @@
+{
+ "id": "el-nuevo-butarque",
+ "titulo": "El nuevo Butarque",
+ "titulo_corto": null,
+ "capa_id": "movimientos-vecinales-y-vida-en-el-barrio",
+ "color": "#9C27B0",
+ "lat": 40.3428814,
+ "lon": -3.6744076,
+ "anio": 1999,
+ "fecha_texto": "1999-2007",
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "El barrio de Butarque, aunque administrativamente existe desde principios de los años 90, siempre ha sido conocido como Los Rosales, habiéndose llamado a la zona que se empezó a urbanizar a partir del año 99 aproximadamente “Nuevo Rosales”. La mayoría de las casas se construyeron con algún régimen de protección, lo que propició la llegada de parejas jóvenes, que poco a poco hicieron que el barrio tuviera uno de los índices de natalidad más altos de España. La parte “más antigua” de esta zona nueva se entregó entre el 2001 y el 2005 en su mayoría. La Asociación de Vecinos Independiente de Butarque (AVIB) se constituyó en 2007 a raíz de un desgraciado accidente de coche por la peligrosidad vial de la zona, visibilizando la carencia de dotaciones e infraestructuras para el barrio y reclamando su mejora.",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "movimientos-vecinales-y-vida-en-el-barrio",
+  "nombre": "Movimientos vecinales y vida en el barrio",
+  "color": "#9C27B0"
+ },
+ "recursos": [
+  {
+   "id": 13,
+   "tipo": "enlace",
+   "titulo": "Guía de recursos del barrio de Butarque",
+   "url": "https://intervencioncomunitariavillaverde.org/guia-recursos-butarque/",
+   "autoria": "Intervención Comunitaria de Villaverde",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": ""
+  }
+ ],
+ "rutas": [
+  {
+   "id": "ruta-vecinal",
+   "nombre": "Un barrio que se organiza",
+   "color": "#9C27B0",
+   "orden": 5
+  }
+ ],
+ "recuerdos": []
+}

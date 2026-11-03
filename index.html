@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Butarque</title>
+<meta name="description" content="La historia del barrio de Butarque (Villaverde, Madrid): un mapa interactivo y tres minijuegos.">
+<meta name="theme-color" content="#2b2620">
+<link rel="icon" href="mapa/iconos/icono-192.png">
+<style>
+  :root {
+    --fondo: #2b2620;
+    --fondo-2: #3a332b;
+    --papel: #f3ead8;
+    --tinta: #2d261e;
+    --ocre: #d9a441;
+    --gris: #a89a86;
+    --borde: #4d443a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--papel);
+    font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .contenedor { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+
+  header { padding: 56px 0 32px; border-bottom: 1px solid var(--borde); }
+  .antetitulo {
+    color: var(--ocre); letter-spacing: .14em; text-transform: uppercase;
+    font-size: .8rem; font-weight: 700; margin: 0 0 10px;
+  }
+  h1 { font-size: clamp(2.1rem, 5vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }
+  .entradilla { max-width: 62ch; color: #e2d7c2; margin: 0; }
+
+  main.contenedor { padding-top: 40px; padding-bottom: 56px; }
+  .piezas {
+    display: grid; gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .pieza {
+    background: var(--fondo-2); border: 1px solid var(--borde); border-radius: 14px;
+    overflow: hidden; display: flex; flex-direction: column;
+  }
+  .pieza img {
+    display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top;
+    background: #1f1b17;
+  }
+  .pieza img.movil { object-fit: contain; padding: 14px 0; }
+  .cuerpo { padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+  .pieza h2 { font-size: 1.3rem; line-height: 1.2; margin: 0; }
+  .pieza p { margin: 0; color: #e2d7c2; }
+  .abrir {
+    margin-top: auto; align-self: flex-start;
+    background: var(--ocre); color: var(--tinta); text-decoration: none; font-weight: 700;
+    padding: 10px 22px; border-radius: 8px;
+  }
+  .abrir:hover, .abrir:focus-visible { background: #e8b95c; }
+  .abrir:focus-visible { outline: 3px solid var(--papel); outline-offset: 2px; }
+
+  .nota {
+    margin-top: 36px; padding: 18px 22px; border-left: 4px solid var(--ocre);
+    background: var(--fondo-2); border-radius: 0 10px 10px 0; color: #e2d7c2;
+  }
+  .nota strong { color: var(--papel); }
+
+  footer { border-top: 1px solid var(--borde); padding: 24px 0 40px; color: var(--gris); font-size: .9rem; }
+  footer p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="contenedor">
+      <p class="antetitulo">Villaverde · Madrid</p>
+      <h1>Butarque</h1>
+      <p class="entradilla">
+        La historia del barrio, desde los yacimientos del Manzanares hasta hoy: un mapa interactivo
+        con sus lugares y tres minijuegos sobre el yacimiento paleontológico.
+      </p>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="piezas">
+      <article class="pieza">
+        <img class="movil" src="img/mapa.png" alt="El Mapa vivo en un móvil, con los puntos de colores sobre el barrio">
+        <div class="cuerpo">
+          <h2>Mapa vivo de Butarque</h2>
+          <p>21 lugares en 5 capas, una línea del tiempo, rutas a pie y la ficha de cada punto. Funciona en el móvil.</p>
+          <a class="abrir" href="mapa/">Abrir el mapa</a>
+        </div>
+      </article>
+      <article class="pieza">
+        <img src="arcade/img/excavacion.png" alt="Cuadrícula de excavación con un colmillo destapado y el cuaderno de campo">
+        <div class="cuerpo">
+          <h2>Arcade de Butarque</h2>
+          <p>Ordena la historia, Excavación en el Estanque de Tormentas y Cazadores del Manzanares. Se juegan en el navegador.</p>
+          <a class="abrir" href="arcade/">Ir al Arcade</a>
+        </div>
+      </article>
+    </div>
+
+    <p class="nota">
+      <strong>Versión de demostración.</strong> Esta web no tiene servidor ni base de datos: el mapa enseña
+      los datos tal como estaban al publicarla, y no se pueden enviar recuerdos ni entrar al panel editorial.
+    </p>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>Proyecto intermodular Butarque 2026-27 · IES Villaverde, con la Mesa Comunitaria de Butarque.</p>
+      <p>Mapa: © colaboradores de OpenStreetMap. Fotos: según la autoría indicada en cada ficha.</p>
+    </div>
+  </footer>
+</body>
+</html>

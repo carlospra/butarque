@@ -1,0 +1,41 @@
+{
+ "id": "yacimiento-de-las-camas",
+ "titulo": "Yacimiento de las Camas",
+ "titulo_corto": "Yacimiento de Las Camas",
+ "capa_id": "yacimientos-arqueologicos-y-vestigios-historicos",
+ "color": "#FFD600",
+ "lat": 40.3395527,
+ "lon": -3.6758642,
+ "anio": -1000,
+ "fecha_texto": "~1000 a. C.",
+ "miniatura": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7plNDTYbZkWwVTWYGjcXxWbzbvUy-btAPh2JogvQ1WixmK3HX-FzEKNcvypxHoFrs5fzi8YBLQI2NFTsiYJZ-AUeeU0GCntDJF-kQ53rRKzU1Lurm3axarhQTqBJPMwcw8_OE7H9u1jP1aHo779Z4EkzZO5jMlxfWF08WbiFucL138IDk9-ls-TYU8P8xHe9F_SC0LvgzQG1kgOnYrOC6WyZc8lmuX5EGKRpO7jKj2nxVu4-9hiI673_g?fife=s16383",
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "El yacimiento arqueológico de Las Camas es, sin duda, excepcional dentro del panorama de la Edad del Hierro en la Península Ibérica. La excavación del 2004, motivada por la urbanización de la zona sur del barrio, reveló las huellas de dos enormes estructuras (longhouses), una tipología de habitación singular a nivel peninsular. El hallazgo aportó datos sobre la vida cotidiana de los antiguos madrileños y testimonios de la producción alfarera y metalúrgica. (1000 a.C.)",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "yacimientos-arqueologicos-y-vestigios-historicos",
+  "nombre": "Yacimientos arqueológicos y vestigios históricos",
+  "color": "#FFD600"
+ },
+ "recursos": [
+  {
+   "id": 3,
+   "tipo": "imagen",
+   "titulo": "Fotografía de la línea del tiempo",
+   "url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7plNDTYbZkWwVTWYGjcXxWbzbvUy-btAPh2JogvQ1WixmK3HX-FzEKNcvypxHoFrs5fzi8YBLQI2NFTsiYJZ-AUeeU0GCntDJF-kQ53rRKzU1Lurm3axarhQTqBJPMwcw8_OE7H9u1jP1aHo779Z4EkzZO5jMlxfWF08WbiFucL138IDk9-ls-TYU8P8xHe9F_SC0LvgzQG1kgOnYrOC6WyZc8lmuX5EGKRpO7jKj2nxVu4-9hiI673_g?fife=s16383",
+   "autoria": "Pendiente de confirmar",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": "Fotografía: Yacimiento de las Camas"
+  }
+ ],
+ "rutas": [
+  {
+   "id": "ruta-prehistoria",
+   "nombre": "Antes del barrio: de los elefantes al Canal",
+   "color": "#B8860B",
+   "orden": 3
+  }
+ ],
+ "recuerdos": []
+}

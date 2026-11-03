@@ -1,0 +1,24 @@
+{
+ "id": "gran-via-de-villaverde",
+ "titulo": "Inauguración de la Gran Vía de Villaverde: la gran arteria que conecta al barrio con el resto del distrito",
+ "titulo_corto": "Gran Vía de Villaverde",
+ "capa_id": "equipamientos-e-infraestructuras",
+ "color": "#01579B",
+ "lat": 40.3531177,
+ "lon": -3.6836192,
+ "anio": 2003,
+ "fecha_texto": "2003-2004",
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "La Gran Vía de Villaverde, hoy eje vertebrador del distrito, fue inaugurada en dos fases; primero en el verano de 2003 con el primer tramo de 1.4 km y luego en la primavera de 2004 con la fase final, completando una longitud total de 3,3 km. Este segundo tramo, que bordea la zona de Los Rosales, cuenta con un bulevar peatonal y carril bici. Su construcción consiguió salvar la brecha de la línea de ferrocarril sobre la que se levanta (a unos cuatro metros de altura) y que le separaba del barrio de Villaverde Bajo. No obstante, el desnivel existente se percibe como una barrera arquitectónica que lo desconecta del barrio vecino.",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "equipamientos-e-infraestructuras",
+  "nombre": "Equipamientos e infraestructuras",
+  "color": "#01579B"
+ },
+ "recursos": [],
+ "rutas": [],
+ "recuerdos": []
+}

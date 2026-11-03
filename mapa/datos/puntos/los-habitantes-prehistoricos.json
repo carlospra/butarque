@@ -1,0 +1,50 @@
+{
+ "id": "los-habitantes-prehistoricos",
+ "titulo": "Los habitantes prehistóricos",
+ "titulo_corto": "Habitantes prehistóricos",
+ "capa_id": "yacimientos-arqueologicos-y-vestigios-historicos",
+ "color": "#FFD600",
+ "lat": 40.3553753,
+ "lon": -3.6774338,
+ "anio": -450000,
+ "fecha_texto": "hace ~450.000 años",
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 1,
+ "descripcion": "Impresionantes restos fósiles hallados en el barrio atestiguan la rica fauna que habitaba la ribera del Manzanares ya desde el Pleistoceno, hace 450.000 años: ciervos gigantes (Megaloceros matritensis), uros (Bos primigenius) y elefantes (Palaeoloxodon antiquus), entre otros. En los mismos yacimientos se han encontrado útiles que testimonian que algunos de ellos convivieron con el Homo heidelbergensis y los preneandernedales.",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "yacimientos-arqueologicos-y-vestigios-historicos",
+  "nombre": "Yacimientos arqueológicos y vestigios históricos",
+  "color": "#FFD600"
+ },
+ "recursos": [
+  {
+   "id": 1,
+   "tipo": "juego",
+   "titulo": "Juega: Excavación en el Estanque de Tormentas",
+   "url": "../arcade/excavacion/",
+   "autoria": "Alumnado de 2.º SMR · Arcade de Butarque",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": ""
+  },
+  {
+   "id": 2,
+   "tipo": "juego",
+   "titulo": "Juega: Cazadores del Manzanares",
+   "url": "../arcade/cazadores/",
+   "autoria": "Alumnado de 2.º SMR · Arcade de Butarque",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": ""
+  }
+ ],
+ "rutas": [
+  {
+   "id": "ruta-prehistoria",
+   "nombre": "Antes del barrio: de los elefantes al Canal",
+   "color": "#B8860B",
+   "orden": 1
+  }
+ ],
+ "recuerdos": []
+}

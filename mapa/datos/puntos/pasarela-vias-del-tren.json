@@ -1,0 +1,31 @@
+{
+ "id": "pasarela-vias-del-tren",
+ "titulo": "Primera pasarela para cruzar las vías del tren",
+ "titulo_corto": "La primera pasarela",
+ "capa_id": "equipamientos-e-infraestructuras",
+ "color": "#01579B",
+ "lat": 40.353933,
+ "lon": -3.68362,
+ "anio": null,
+ "fecha_texto": null,
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "Los pasos a nivel han sido una de las reivindicaciones históricas del barrio. Se recuerda que gracias al Señor Ruperto, y en aquel entonces la Asociación de Cabezas de Familia y Grupo Juvenil Los Rosales (hoy AA.VV Los Rosales), se consiguió un paso a nivel evitando la peligrosidad que conllevaba tener que pasar por las vías. El barrio ha contado con diversas pasarelas hasta llegar al paso actual a través del túnel.",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "equipamientos-e-infraestructuras",
+  "nombre": "Equipamientos e infraestructuras",
+  "color": "#01579B"
+ },
+ "recursos": [],
+ "rutas": [
+  {
+   "id": "ruta-vecinal",
+   "nombre": "Un barrio que se organiza",
+   "color": "#9C27B0",
+   "orden": 0
+  }
+ ],
+ "recuerdos": []
+}

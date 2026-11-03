@@ -1,0 +1,34 @@
+{
+ "id": "paseo-fluvial-manzanares",
+ "titulo": "Paseo Fluvial del Río Manzanares",
+ "titulo_corto": "Paseo fluvial del Manzanares",
+ "capa_id": "espacios-naturales",
+ "color": "#558B2F",
+ "lat": 40.3534703,
+ "lon": -3.6751271,
+ "anio": null,
+ "fecha_texto": null,
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 1,
+ "descripcion": "",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "espacios-naturales",
+  "nombre": "Espacios Naturales",
+  "color": "#558B2F"
+ },
+ "recursos": [
+  {
+   "id": 14,
+   "tipo": "juego",
+   "titulo": "Juega: Cazadores del Manzanares",
+   "url": "../arcade/cazadores/",
+   "autoria": "Alumnado de 2.º SMR · Arcade de Butarque",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": ""
+  }
+ ],
+ "rutas": [],
+ "recuerdos": []
+}

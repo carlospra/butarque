@@ -1,0 +1,31 @@
+{
+ "id": "centro-cultural-los-rosales",
+ "titulo": "Inauguración Centro Cultural Los Rosales",
+ "titulo_corto": "Centro Cultural Los Rosales",
+ "capa_id": "equipamientos-e-infraestructuras",
+ "color": "#01579B",
+ "lat": 40.3512908,
+ "lon": -3.6763772,
+ "anio": 2004,
+ "fecha_texto": "1998-2004",
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "Después de una ardua negociación entre el Ayuntamiento de Madrid y la Asociación vecinal Los Rosales sobre el emplazamiento del Centro Cultural Los Rosales, que incluyó una acampada y un referéndum entre el vecindario por considerar que el primer enclave propuesto conllevaría la tala de árboles de la única zona verde del barrio, en 1998 se llegó a un acuerdo sobre su actual localización. El centro cultural abrió sus puertas en 2004.",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "equipamientos-e-infraestructuras",
+  "nombre": "Equipamientos e infraestructuras",
+  "color": "#01579B"
+ },
+ "recursos": [],
+ "rutas": [
+  {
+   "id": "ruta-vecinal",
+   "nombre": "Un barrio que se organiza",
+   "color": "#9C27B0",
+   "orden": 2
+  }
+ ],
+ "recuerdos": []
+}

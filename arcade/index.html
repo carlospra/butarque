@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arcade de Butarque</title>
+<meta name="description" content="Tres minijuegos sobre el yacimiento paleontológico de Butarque (Villaverde, Madrid), programados en Python.">
+<style>
+  :root {
+    --fondo: #2b2620;
+    --fondo-2: #3a332b;
+    --papel: #f3ead8;
+    --tinta: #2d261e;
+    --ocre: #d9a441;
+    --gris: #a89a86;
+    --verde: #5b9a5b;
+    --borde: #4d443a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--papel);
+    font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .contenedor { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+
+  header { padding: 56px 0 32px; border-bottom: 1px solid var(--borde); }
+  .antetitulo {
+    color: var(--ocre); letter-spacing: .14em; text-transform: uppercase;
+    font-size: .8rem; font-weight: 700; margin: 0 0 10px;
+  }
+  h1 { font-size: clamp(2.1rem, 5vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }
+  .entradilla { max-width: 62ch; color: #e2d7c2; margin: 0; }
+
+  main.contenedor { padding-top: 40px; padding-bottom: 56px; }
+  .juegos {
+    display: grid; gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .juego {
+    background: var(--fondo-2); border: 1px solid var(--borde); border-radius: 14px;
+    overflow: hidden; display: flex; flex-direction: column;
+  }
+  .juego img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: #1f1b17; }
+  .cuerpo { padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+  .juego h2 { font-size: 1.3rem; line-height: 1.2; margin: 0; }
+  .juego p { margin: 0; color: #e2d7c2; }
+  .etiquetas { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0; }
+  .etiquetas li {
+    font-size: .8rem; padding: 3px 10px; border-radius: 999px;
+    border: 1px solid var(--borde); color: var(--gris);
+  }
+  .etiquetas li.aviso { border-color: var(--ocre); color: var(--ocre); }
+  .jugar {
+    margin-top: auto; align-self: flex-start;
+    background: var(--ocre); color: var(--tinta); text-decoration: none; font-weight: 700;
+    padding: 10px 22px; border-radius: 8px;
+  }
+  .jugar:hover, .jugar:focus-visible { background: #e8b95c; }
+  .jugar:focus-visible { outline: 3px solid var(--papel); outline-offset: 2px; }
+
+  .nota {
+    margin-top: 36px; padding: 18px 22px; border-left: 4px solid var(--ocre);
+    background: var(--fondo-2); border-radius: 0 10px 10px 0; color: #e2d7c2;
+  }
+  .nota strong { color: var(--papel); }
+
+  footer { border-top: 1px solid var(--borde); padding: 24px 0 40px; color: var(--gris); font-size: .9rem; }
+  footer p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="contenedor">
+      <p class="antetitulo">Villaverde · Madrid</p>
+      <h1>Arcade de Butarque</h1>
+      <p class="entradilla">
+        Hace unos 150.000 años, donde el arroyo Butarque desemboca en el Manzanares, había elefantes antiguos,
+        uros, bisontes y grupos neandertales que cazaban en la llanura. Sus restos aparecieron durante las obras
+        del Estanque de Tormentas. Estos tres minijuegos, programados en Python, cuentan esa historia.
+      </p>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="juegos">
+      <article class="juego">
+        <img src="img/ordena.png" alt="Tarjetas de hitos colocadas sobre una línea del tiempo, marcadas en verde y rojo">
+        <div class="cuerpo">
+          <h2>Ordena la historia</h2>
+          <p>La versión digital del puzle de la línea del tiempo: coloca los hitos de Butarque del más antiguo al más reciente.</p>
+          <ul class="etiquetas"><li>Ratón o pantalla táctil</li><li>Unos minutos</li></ul>
+          <a class="jugar" href="ordena/">Jugar</a>
+        </div>
+      </article>
+
+      <article class="juego">
+        <img src="img/excavacion.png" alt="Cuadrícula de excavación con un colmillo destapado y el cuaderno de campo">
+        <div class="cuerpo">
+          <h2>Excavación en el Estanque de Tormentas</h2>
+          <p>Excava la cuadrícula siguiendo las pistas del terreno y recupera el colmillo de casi 4 metros antes de quedarte sin golpes.</p>
+          <ul class="etiquetas"><li>Ratón o pantalla táctil</li><li>Partidas de 5 minutos</li></ul>
+          <a class="jugar" href="excavacion/">Jugar</a>
+        </div>
+      </article>
+
+      <article class="juego">
+        <img src="img/cazadores.png" alt="Vista cenital de la llanura con el río Manzanares, animales y sus conos de visión">
+        <div class="cuerpo">
+          <h2>Cazadores del Manzanares</h2>
+          <p>Eres un cazador neandertal. Acecha a las presas sin que te vean, recoge sílex en la orilla y cuidado con uros y lobos.</p>
+          <ul class="etiquetas"><li class="aviso">Necesita teclado</li><li>3 niveles</li></ul>
+          <a class="jugar" href="cazadores/">Jugar</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="nota">
+      <strong>La primera vez tarda unos segundos en cargar:</strong> el navegador descarga un intérprete de Python
+      que se queda guardado para las siguientes partidas. Si el juego no responde al teclado, haz clic una vez sobre él.
+    </div>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>Proyecto de dinamización del barrio de Butarque · Reto de programación en Python de 2.º de SMR.</p>
+      <p>Hechos con Python y pygame, y llevados a la web con pygbag (WebAssembly).</p>
+    </div>
+  </footer>
+</body>
+</html>
