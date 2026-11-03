@@ -1,0 +1,66 @@
+# Publica Butarque en GitHub Pages cada vez que se sube algo a la rama main.
+# Activar una vez en el repositorio: Settings -> Pages -> Source: "GitHub Actions".
+# La web queda en https://<usuario>.github.io/<repositorio>/
+#
+#   /          portada
+#   /mapa/     Mapa vivo (ficheros estáticos, sin servidor ni base de datos)
+#   /arcade/   Arcade de Butarque (los juegos se compilan aquí con pygbag)
+
+name: Publicar Butarque en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:          # botón "Run workflow" para publicar a mano
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias del Arcade
+        run: pip install pygame pygbag==0.9.3
+
+      - name: Pasar las pruebas del Arcade
+        working-directory: arcade_butarque
+        run: |
+          (cd excavacion_butarque && python -m unittest discover tests)
+          (cd cazadores_manzanares && python -m unittest discover tests)
+
+      - name: Compilar los juegos
+        run: bash arcade_butarque/construir_web.sh
+
+      - name: Montar la web
+        run: |
+          mkdir -p _site
+          cp index.html .nojekyll _site/
+          cp -r mapa _site/mapa
+          cp -r arcade_butarque/_site _site/arcade
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4

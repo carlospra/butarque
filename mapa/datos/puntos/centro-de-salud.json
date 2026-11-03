@@ -1,0 +1,31 @@
+{
+ "id": "centro-de-salud",
+ "titulo": "El centro de salud: una de las reivindicaciones más antiguas del barrio",
+ "titulo_corto": "El centro de salud",
+ "capa_id": "equipamientos-e-infraestructuras",
+ "color": "#01579B",
+ "lat": 40.3408704,
+ "lon": -3.677375,
+ "anio": 2022,
+ "fecha_texto": "2022",
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "La reivindicación de la apertura de un centro de salud en el territorio ha sido una constante en la historia del barrio y un motivo de movilización vecinal durante un largo tiempo. El primer espacio propuesto por la vecindad fue donde hoy se ubica el Centro de Mayores La Platanera. La licitación y la construcción del centro se fue aplazando por parte de las administraciones, dando lugar a manifestaciones diversas y multitudinarias. Finalmente, la licitación se concedió en 2022.",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "equipamientos-e-infraestructuras",
+  "nombre": "Equipamientos e infraestructuras",
+  "color": "#01579B"
+ },
+ "recursos": [],
+ "rutas": [
+  {
+   "id": "ruta-vecinal",
+   "nombre": "Un barrio que se organiza",
+   "color": "#9C27B0",
+   "orden": 6
+  }
+ ],
+ "recuerdos": []
+}

@@ -1,0 +1,41 @@
+{
+ "id": "canal-cuarta-esclusa",
+ "titulo": "El Real Canal del Manzanares (La Casa de la Cuarta Esclusa)",
+ "titulo_corto": "Real Canal del Manzanares",
+ "capa_id": "yacimientos-arqueologicos-y-vestigios-historicos",
+ "color": "#FFD600",
+ "lat": 40.3522096,
+ "lon": -3.6717699,
+ "anio": 1771,
+ "fecha_texto": "1771",
+ "miniatura": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5elrURuJSC-QeYyWBc39ttf8is6MIgM9wMVDO8hTmmPBYKb2V9svJWVYHCy3m2-13CxwkbkBnIV9pwtSqpNcSeW_zBWT0lL4AlskrIucRq82lmELi9jSVuFA9X8DAWwjV5qXY4W28b8QgxC9Pu5oqdk6u3Vy1DsXsjjEJLjY94JvILpsYakIyiAr4_5_FlENhC72s01htL1Q0xVINzdbEvEZZY9EEnO7wMG_7Xt1iHZG7jdGJxN0BH2gs?fife=s16383",
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "Arranca la construcción del Real Canal de Manzanares, un canal fluvial de navegación que pretendía unir por agua Madrid y Aranjuez, para tener salida al río Tajo. Desde allí el canal se dividiría para ir a Lisboa por el Tajo o por otro canal a Sevilla. En el distrito quedan numerosos restos de este grandioso proyecto que nunca vio la luz por completo. (1771)",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "yacimientos-arqueologicos-y-vestigios-historicos",
+  "nombre": "Yacimientos arqueológicos y vestigios históricos",
+  "color": "#FFD600"
+ },
+ "recursos": [
+  {
+   "id": 4,
+   "tipo": "imagen",
+   "titulo": "Fotografía de la línea del tiempo",
+   "url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5elrURuJSC-QeYyWBc39ttf8is6MIgM9wMVDO8hTmmPBYKb2V9svJWVYHCy3m2-13CxwkbkBnIV9pwtSqpNcSeW_zBWT0lL4AlskrIucRq82lmELi9jSVuFA9X8DAWwjV5qXY4W28b8QgxC9Pu5oqdk6u3Vy1DsXsjjEJLjY94JvILpsYakIyiAr4_5_FlENhC72s01htL1Q0xVINzdbEvEZZY9EEnO7wMG_7Xt1iHZG7jdGJxN0BH2gs?fife=s16383",
+   "autoria": "Pendiente de confirmar",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": "Fotografía: El Real Canal del Manzanares (La Casa de la Cuarta Esclusa)"
+  }
+ ],
+ "rutas": [
+  {
+   "id": "ruta-prehistoria",
+   "nombre": "Antes del barrio: de los elefantes al Canal",
+   "color": "#B8860B",
+   "orden": 2
+  }
+ ],
+ "recuerdos": []
+}

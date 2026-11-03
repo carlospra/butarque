@@ -1,0 +1,41 @@
+{
+ "id": "desarrollo-industrial-i",
+ "titulo": "Desarrollo Industrial I",
+ "titulo_corto": null,
+ "capa_id": "industrias-y-tejido-productivo",
+ "color": "#E65100",
+ "lat": 40.3559617,
+ "lon": -3.6819547,
+ "anio": 1940,
+ "fecha_texto": "1940",
+ "miniatura": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4gssGcPU5zoEiwtbUc-RGCUeR7oXrKe6zGI-Bedyv2IwrUATcFIhcogLlFnMZM7XXzv5HC4Yl82005ampB1dDi4k0SIjYvuT4FUlXErqShOaPSsus4IhnUWVj9aXI3PKu47Oe2bA0csSD1bmeP-JRZgprdlTFcv7bUVKLhqXY46T90AzW_eF4uT6Urn4C9BCuH6wiAgPvuuhgSCuA7mvh-CdRtN0uzHtgBSdRuIahhTXLctqws-1Z6hEc?fife=s16383",
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "Se produce el despegue industrial de la zona. Ya estaban funcionando las fábricas cerámicas Norah y Mª Paz (finales del siglo XIX), y se instalaron Pons y Romero, Boetticher y Navarro (ascensores), Siderúrgica Requena, Compañía Euskalduna, Hierros de Madrid, los Talleres Vers, Transfesa (ferrocarril), la Tecno-Química Hispania S.A., Giralt Laporta (vidrio). (1940)",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "industrias-y-tejido-productivo",
+  "nombre": "Industrias y tejido productivo",
+  "color": "#E65100"
+ },
+ "recursos": [
+  {
+   "id": 11,
+   "tipo": "imagen",
+   "titulo": "Fotografía de la línea del tiempo",
+   "url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4gssGcPU5zoEiwtbUc-RGCUeR7oXrKe6zGI-Bedyv2IwrUATcFIhcogLlFnMZM7XXzv5HC4Yl82005ampB1dDi4k0SIjYvuT4FUlXErqShOaPSsus4IhnUWVj9aXI3PKu47Oe2bA0csSD1bmeP-JRZgprdlTFcv7bUVKLhqXY46T90AzW_eF4uT6Urn4C9BCuH6wiAgPvuuhgSCuA7mvh-CdRtN0uzHtgBSdRuIahhTXLctqws-1Z6hEc?fife=s16383",
+   "autoria": "Pendiente de confirmar",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": "Fotografía: Desarrollo Industrial I"
+  }
+ ],
+ "rutas": [
+  {
+   "id": "ruta-industrial",
+   "nombre": "Cuando las fábricas eran vecinas",
+   "color": "#E65100",
+   "orden": 2
+  }
+ ],
+ "recuerdos": []
+}

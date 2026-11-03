@@ -1,0 +1,64 @@
+{
+ "id": "ruta-industrial",
+ "nombre": "Cuando las fábricas eran vecinas",
+ "descripcion": "El ferrocarril y la industria que dio trabajo al barrio.",
+ "color": "#E65100",
+ "paradas": [
+  {
+   "id": "ferrocarril-atocha-aranjuez",
+   "titulo": "El ferrocarril (Atocha- Aranjuez)",
+   "titulo_corto": "Ferrocarril Madrid-Aranjuez",
+   "lat": 40.3583006,
+   "lon": -3.679222,
+   "anio": 1851,
+   "fecha_texto": "1851",
+   "orden": 0
+  },
+  {
+   "id": "desarrollo-industrial-ii",
+   "titulo": "Desarrollo Industrial II",
+   "titulo_corto": null,
+   "lat": 40.3559433,
+   "lon": -3.6810261,
+   "anio": 1960,
+   "fecha_texto": "1960",
+   "orden": 1,
+   "tramo_m": 303
+  },
+  {
+   "id": "desarrollo-industrial-i",
+   "titulo": "Desarrollo Industrial I",
+   "titulo_corto": null,
+   "lat": 40.3559617,
+   "lon": -3.6819547,
+   "anio": 1940,
+   "fecha_texto": "1940",
+   "orden": 2,
+   "tramo_m": 79
+  },
+  {
+   "id": "las-fabricas-eran-vecinas",
+   "titulo": "Las fábricas eran vecinas",
+   "titulo_corto": null,
+   "lat": 40.3540851,
+   "lon": -3.682199,
+   "anio": null,
+   "fecha_texto": "Siglo XX",
+   "orden": 3,
+   "tramo_m": 210
+  },
+  {
+   "id": "la-copa-de-villaverde",
+   "titulo": "La Copa de Villaverde",
+   "titulo_corto": null,
+   "lat": 40.3505055,
+   "lon": -3.6814479,
+   "anio": 1924,
+   "fecha_texto": "1924",
+   "orden": 4,
+   "tramo_m": 403
+  }
+ ],
+ "distancia_m": 995,
+ "minutos": 13
+}

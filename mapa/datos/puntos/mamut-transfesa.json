@@ -1,0 +1,59 @@
+{
+ "id": "mamut-transfesa",
+ "titulo": "Descubrimiento \"Mamut\" en TRANSFESA",
+ "titulo_corto": "El «mamut» de TRANSFESA",
+ "capa_id": "yacimientos-arqueologicos-y-vestigios-historicos",
+ "color": "#FFD600",
+ "lat": 40.3547034,
+ "lon": -3.6832453,
+ "anio": 1958,
+ "fecha_texto": "1958",
+ "miniatura": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6tBrydtjlTmalMzXnCqtGpKXSfh2SI1FBdYZEZY4Bjdjcbg2fgU67rS6P8BdASoZ1aue8ctw8_1OvPxr5JXn54t4ucPTLUrFDwGguRGCAvl_XAPrwz-J8hrvxW-6S7qT0wYkOvrwu36SGN9TQHwSDLlMY0dwXSqHvX78LF6z_otvdUdABgK92tUiaQF3XzUC-CzrQ6eEIpJ394zr4sUyLOJyYrEAC0qWd4kK42Q2o01zu2G8BCZm4CYR4?fife=s16383",
+ "tiene_audio": 0,
+ "tiene_juego": 1,
+ "descripcion": "Un elefante prehistórico en excelente estado de conservación fue descubierto durante los trabajos para la ampliación de la fábrica de TRANSFESA. Junto a él hallaron abundantes herramientas líticas que aseguraban la presencia humana en esta escena, y restos de otros animales, como especies extintas de grandes ciervos y caballos. El hallazgo es recordado en el barrio como un acontecimiento relevante, tanto que, en tiempos recientes, ha entrado en la toponimia (como mammuth) y se denominan así actividades populares. 1958",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "yacimientos-arqueologicos-y-vestigios-historicos",
+  "nombre": "Yacimientos arqueológicos y vestigios históricos",
+  "color": "#FFD600"
+ },
+ "recursos": [
+  {
+   "id": 6,
+   "tipo": "imagen",
+   "titulo": "Fotografía de la línea del tiempo",
+   "url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6tBrydtjlTmalMzXnCqtGpKXSfh2SI1FBdYZEZY4Bjdjcbg2fgU67rS6P8BdASoZ1aue8ctw8_1OvPxr5JXn54t4ucPTLUrFDwGguRGCAvl_XAPrwz-J8hrvxW-6S7qT0wYkOvrwu36SGN9TQHwSDLlMY0dwXSqHvX78LF6z_otvdUdABgK92tUiaQF3XzUC-CzrQ6eEIpJ394zr4sUyLOJyYrEAC0qWd4kK42Q2o01zu2G8BCZm4CYR4?fife=s16383",
+   "autoria": "Pendiente de confirmar",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": "Fotografía: Descubrimiento \"Mamut\" en TRANSFESA"
+  },
+  {
+   "id": 7,
+   "tipo": "juego",
+   "titulo": "Juega: Ordena la historia de Butarque",
+   "url": "../arcade/ordena/",
+   "autoria": "Alumnado de 2.º SMR · Arcade de Butarque",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": ""
+  },
+  {
+   "id": 8,
+   "tipo": "juego",
+   "titulo": "Juega: Excavación en el Estanque de Tormentas",
+   "url": "../arcade/excavacion/",
+   "autoria": "Alumnado de 2.º SMR · Arcade de Butarque",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": ""
+  }
+ ],
+ "rutas": [
+  {
+   "id": "ruta-prehistoria",
+   "nombre": "Antes del barrio: de los elefantes al Canal",
+   "color": "#B8860B",
+   "orden": 0
+  }
+ ],
+ "recuerdos": []
+}

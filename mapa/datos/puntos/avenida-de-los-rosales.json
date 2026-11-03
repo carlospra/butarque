@@ -1,0 +1,24 @@
+{
+ "id": "avenida-de-los-rosales",
+ "titulo": "Inauguración de la Avenida de Los Rosales",
+ "titulo_corto": "Avenida de Los Rosales",
+ "capa_id": "equipamientos-e-infraestructuras",
+ "color": "#01579B",
+ "lat": 40.3536454,
+ "lon": -3.680136,
+ "anio": 2010,
+ "fecha_texto": "2010",
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "En noviembre de 2010 se inauguró la remodelación de esta importante avenida que hoy comunica gran parte de Butarque, constituyendo una de sus arterias principales. Abarca el barrio tradicional de Los Rosales y parte del “nuevo Butarque”. Esta inauguraciòn se realizó en medio de cierto descontento vecinal por no haberse atendido algunas peticiones para realizar esta infraestructura, como por ejemplo que fuera más un bulevar que una vía de tránsito rápido",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "equipamientos-e-infraestructuras",
+  "nombre": "Equipamientos e infraestructuras",
+  "color": "#01579B"
+ },
+ "recursos": [],
+ "rutas": [],
+ "recuerdos": []
+}

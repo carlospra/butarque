@@ -1,0 +1,4 @@
+nivel,titulo,objetivo,duracion,hierba,arboles,silex_inicial,silex_rio,animales,texto
+1,Primavera en la llanura,6,120,9,8,2,6,caballo:4;ciervo:2;asno:3,Hace unos 150.000 años la desembocadura del arroyo Butarque en el Manzanares era una llanura de inundación llena de manadas. Tu grupo necesita provisiones. Acércate a las presas sin que te vean: usa la hierba alta y camina agachado.
+2,Manadas junto al arroyo,10,120,7,10,2,6,caballo:3;ciervo:3;uro:2;jabali:2;lobo:1,Han llegado uros y jabalíes. Cuidado: no huyen como los caballos sino que embisten. Y un lobo ronda la zona.
+3,El frío del invierno,14,140,5,6,1,7,bisonte:3;caballo:3;uro:2;rinoceronte:1;lobo:2,El clima se enfría. Hay menos hierba donde esconderse y más lobos. Los bisontes de la estepa han bajado hasta el río.

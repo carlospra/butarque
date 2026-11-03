@@ -1,0 +1,9 @@
+id,nombre,nombre_cientifico,tipo,comportamiento,tamano,color,vista,nervio,vel_paseo,vel_huida,valor,dato
+caballo,Caballo salvaje,Equus ferus,presa,huye,17,#a0703f,240,0.9,35,300,2,Los caballos salvajes vivían en manadas en las llanuras abiertas. Eran una de las presas más comunes de los neandertales.
+ciervo,Ciervo,Cervus elaphus,presa,huye,15,#b5763f,260,0.5,40,320,2,El ciervo es muy asustadizo: a la mínima señal de peligro sale corriendo. Hoy sigue viviendo en la península.
+asno,Asno europeo,Equus hydruntinus,presa,huye,12,#9c8a6e,200,1.1,30,250,1,Un pequeño équido de los espacios abiertos que se extinguió hace miles de años.
+uro,Uro,Bos primigenius,presa,embiste,22,#5e3426,200,1.4,25,330,4,El uro era un toro salvaje enorme. En vez de huir podía embestir: cazarlo era peligroso.
+bisonte,Bisonte estepario,Bison priscus,presa,embiste,22,#6e5a44,190,1.5,25,310,4,Bisonte de las estepas frías. Su presencia en Butarque indica épocas más frías que la actual.
+jabali,Jabalí,Sus scrofa,presa,embiste,13,#4f4237,170,0.8,40,280,2,El jabalí vivía en los bosques de ribera del Manzanares y sigue viviendo allí hoy.
+rinoceronte,Rinoceronte antiguo,Stephanorhinus sp.,presa,embiste,26,#7d7466,150,1.8,20,300,6,Un rinoceronte hoy extinguido. Ve poco pero su embestida es terrible.
+lobo,Lobo,Canis lupus,depredador,persigue,13,#5f6b73,230,0.3,55,170,0,El lobo competía con los neandertales por las mismas presas. Si te ve te persigue: corre más que tú cuando acechas.

@@ -1,0 +1,31 @@
+{
+ "id": "la-gran-valla",
+ "titulo": "Reivindicaciones en educación: la colocación de “la gran valla”",
+ "titulo_corto": "La «gran valla» educativa",
+ "capa_id": "equipamientos-e-infraestructuras",
+ "color": "#01579B",
+ "lat": 40.343116,
+ "lon": -3.6739094,
+ "anio": 2014,
+ "fecha_texto": "2014",
+ "miniatura": null,
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "La apertura de los diversos centros educativos con los que cuenta hoy el territorio no siempre ha ido en paralelo al crecimiento de la población infantil y juvenil del barrio, que siempre ha sido muy numerosa, sobre todo en la parte nueva. Para reivindicar la construcción y apertura de los centros educativos públicos necesarios surgió la marea amarilla. La instalación de “la gran valla” en enero de 2014 en el solar de lo que ahora es el IES Juan Ramón Jiménez supuso un momento clave en las movilizaciones. En 2007 abrió sus puertas el CEIP El Greco y durante el curso 2024-2025 el IES María Goyri Goyri, ya con sus instalaciones propias",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "equipamientos-e-infraestructuras",
+  "nombre": "Equipamientos e infraestructuras",
+  "color": "#01579B"
+ },
+ "recursos": [],
+ "rutas": [
+  {
+   "id": "ruta-vecinal",
+   "nombre": "Un barrio que se organiza",
+   "color": "#9C27B0",
+   "orden": 4
+  }
+ ],
+ "recuerdos": []
+}

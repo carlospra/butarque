@@ -1,0 +1,29 @@
+[
+ {
+  "id": "ruta-industrial",
+  "nombre": "Cuando las fábricas eran vecinas",
+  "descripcion": "El ferrocarril y la industria que dio trabajo al barrio.",
+  "color": "#E65100",
+  "distancia_m": 995,
+  "minutos": 13,
+  "paradas": 5
+ },
+ {
+  "id": "ruta-prehistoria",
+  "nombre": "Antes del barrio: de los elefantes al Canal",
+  "descripcion": "Yacimientos y vestigios: del Pleistoceno a la Ilustración.",
+  "color": "#B8860B",
+  "distancia_m": 2543,
+  "minutos": 34,
+  "paradas": 4
+ },
+ {
+  "id": "ruta-vecinal",
+  "nombre": "Un barrio que se organiza",
+  "descripcion": "Reivindicaciones vecinales: pasarelas, cultura, escuelas y salud.",
+  "color": "#9C27B0",
+  "distancia_m": 2003,
+  "minutos": 27,
+  "paradas": 7
+ }
+]

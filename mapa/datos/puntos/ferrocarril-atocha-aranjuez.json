@@ -1,0 +1,41 @@
+{
+ "id": "ferrocarril-atocha-aranjuez",
+ "titulo": "El ferrocarril (Atocha- Aranjuez)",
+ "titulo_corto": "Ferrocarril Madrid-Aranjuez",
+ "capa_id": "yacimientos-arqueologicos-y-vestigios-historicos",
+ "color": "#FFD600",
+ "lat": 40.3583006,
+ "lon": -3.679222,
+ "anio": 1851,
+ "fecha_texto": "1851",
+ "miniatura": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4MN6hAM_5k8lhrWAfcBSv0DOfMhU0-KrbKaHpc0-hDM3dz0GtHoI5WZbAOsLM-dS0Hh9pHHalwJKcJDCuZVLzy7azBl5_Xsq7e6hFIPmkq22QjRD3e0VU-tloACEr6Y1mBb2ZsZhHJ1EXT3BfemU7i0apddBv5EjUA2sxWpwlSavbST_KwhrcO3aMsoTdavWOpenMYDX2yHL-K34ACGfmjUjNnViSXk-SIDMyHACy-6k838zbMhOSqwJM?fife=s16383",
+ "tiene_audio": 0,
+ "tiene_juego": 0,
+ "descripcion": "El 9 de febrero se inaugura la línea de ferrocarril Madrid-Aranjuez, de las primeras de España, correspondiente al actual trazado del cercanía de Atocha a Aranjuez. Esta infraestructura marcó el distrito e influyó en su desarrollo. De notable factura es el puente que cruza el Manzanares, en correspondencia del antiguo vado de Santiago el Verde, del que sobreviven varios elementos. (1851)",
+ "fuente": "«Geolocalizacion Linea del tiempo» · Mesa Comunitaria de Butarque (Google My Maps)",
+ "capa": {
+  "id": "yacimientos-arqueologicos-y-vestigios-historicos",
+  "nombre": "Yacimientos arqueológicos y vestigios históricos",
+  "color": "#FFD600"
+ },
+ "recursos": [
+  {
+   "id": 5,
+   "tipo": "imagen",
+   "titulo": "Fotografía de la línea del tiempo",
+   "url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4MN6hAM_5k8lhrWAfcBSv0DOfMhU0-KrbKaHpc0-hDM3dz0GtHoI5WZbAOsLM-dS0Hh9pHHalwJKcJDCuZVLzy7azBl5_Xsq7e6hFIPmkq22QjRD3e0VU-tloACEr6Y1mBb2ZsZhHJ1EXT3BfemU7i0apddBv5EjUA2sxWpwlSavbST_KwhrcO3aMsoTdavWOpenMYDX2yHL-K34ACGfmjUjNnViSXk-SIDMyHACy-6k838zbMhOSqwJM?fife=s16383",
+   "autoria": "Pendiente de confirmar",
+   "licencia": "Pendiente de confirmar",
+   "texto_alt": "Fotografía: El ferrocarril (Atocha- Aranjuez)"
+  }
+ ],
+ "rutas": [
+  {
+   "id": "ruta-industrial",
+   "nombre": "Cuando las fábricas eran vecinas",
+   "color": "#E65100",
+   "orden": 0
+  }
+ ],
+ "recuerdos": []
+}
